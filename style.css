@@ -411,3 +411,72 @@ section {
     margin-top: var(--header-height);
     text-align: center;
 }
+
+/* New Sections Styling */
+.introduction-section,
+.director-message,
+.partnerships-section,
+.sustainability-section,
+.references-section,
+.why-mpc {
+    padding: 5rem 0;
+}
+
+.bg-light {
+    background-color: var(--light-bg);
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.industry-sectors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.sector-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.feature-card {
+    text-align: center;
+    padding: 2rem;
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+}
+
+.cta-section {
+    text-align: center;
+    padding: 5rem 0;
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+@media (max-width: 992px) {
+    .industry-sectors {
+        grid-template-columns: 1fr;
+    }
+    
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}

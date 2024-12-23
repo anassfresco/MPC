@@ -1,5 +1,5 @@
 <?php 
-$page_title = "Nos Solutions";
+$page_title = "Solutions Industrielles";
 $current_page = "solutions";
 include 'includes/header.php';
 ?>
@@ -7,8 +7,8 @@ include 'includes/header.php';
 <main>
     <section class="page-header">
         <div class="container">
-            <h1>Nos Solutions</h1>
-            <p>Des solutions innovantes pour répondre à vos besoins</p>
+            <h1>Solutions Industrielles</h1>
+            <p>Des solutions innovantes et sur mesure pour votre industrie</p>
         </div>
     </section>
 
@@ -16,115 +16,96 @@ include 'includes/header.php';
         <div class="container">
             <div class="solutions-intro">
                 <h2>Solutions Complètes pour l'Industrie</h2>
-                <p>Nous proposons une gamme complète de solutions adaptées aux besoins spécifiques de chaque secteur d'activité. Notre expertise nous permet de vous accompagner dans tous vos projets.</p>
+                <p>Chez MPC Group, nous proposons une gamme complète de solutions industrielles sur mesure, conçues pour répondre aux besoins spécifiques de chaque secteur. Nous comprenons que chaque industrie fait face à des défis uniques, et nous mettons notre expertise à votre service pour offrir des solutions innovantes, efficaces et durables. Que ce soit pour l'optimisation des processus, la réduction des coûts, ou la gestion des flux dans des environnements complexes, nous avons la solution adaptée à vos besoins.</p>
             </div>
 
             <div class="solutions-grid">
+                <!-- Instrumentation et contrôle -->
                 <div class="solution-card">
                     <div class="solution-icon">
-                        <i class="fas fa-industry"></i>
+                        <i class="fas fa-tachometer-alt"></i>
                     </div>
-                    <h3>Solutions Industrielles</h3>
-                    <p>Solutions complètes pour l'industrie manufacturière et la production.</p>
+                    <h3>Instrumentation et contrôle</h3>
+                    <p>Solutions avancées d'instrumentation industrielle pour une mesure précise et un contrôle rigoureux des paramètres clés.</p>
                     <ul class="solution-features">
-                        <li>Automatisation des processus</li>
-                        <li>Optimisation de la production</li>
-                        <li>Maintenance prédictive</li>
-                        <li>Gestion de l'énergie</li>
+                        <li>Mesure de débit, température, pression et niveau</li>
+                        <li>Technologies Endress+Hauser</li>
+                        <li>Optimisation continue des processus</li>
+                        <li>Solutions adaptées à tous secteurs</li>
                     </ul>
-                    <a href="#" class="btn-outline">En savoir plus</a>
+                    <div class="partner-logo">
+                        <img src="img/partners/endress.png" alt="Endress+Hauser">
+                    </div>
                 </div>
 
+                <!-- Robinetterie et régulation -->
                 <div class="solution-card">
                     <div class="solution-icon">
-                        <i class="fas fa-building"></i>
+                        <i class="fas fa-valve"></i>
                     </div>
-                    <h3>Construction</h3>
-                    <p>Expertise complète pour vos projets de construction et rénovation.</p>
+                    <h3>Robinetterie et régulation</h3>
+                    <p>Solutions de robinetterie industrielle conçues pour les environnements les plus exigeants.</p>
                     <ul class="solution-features">
-                        <li>Gestion de projet</li>
-                        <li>Solutions durables</li>
-                        <li>Innovation technique</li>
-                        <li>Conformité aux normes</li>
+                        <li>Vannes et systèmes de régulation</li>
+                        <li>Solutions Valmet haute performance</li>
+                        <li>Gestion optimale des fluides</li>
+                        <li>Résistance aux conditions extrêmes</li>
                     </ul>
-                    <a href="#" class="btn-outline">En savoir plus</a>
+                    <div class="partner-logo">
+                        <img src="img/partners/valmet.png" alt="Valmet">
+                    </div>
                 </div>
 
+                <!-- Équipements miniers -->
                 <div class="solution-card">
                     <div class="solution-icon">
-                        <i class="fas fa-cogs"></i>
+                        <i class="fas fa-hard-hat"></i>
                     </div>
-                    <h3>Services Techniques</h3>
-                    <p>Support technique et maintenance pour vos installations.</p>
+                    <h3>Optimisation des équipements miniers</h3>
+                    <p>Solutions spécialisées pour le secteur minier, optimisant la productivité dans des conditions extrêmes.</p>
                     <ul class="solution-features">
-                        <li>Maintenance préventive</li>
-                        <li>Support 24/7</li>
-                        <li>Formation technique</li>
-                        <li>Optimisation des systèmes</li>
+                        <li>Pièces de rechange haute qualité</li>
+                        <li>Solutions Element sur mesure</li>
+                        <li>Performance accrue</li>
+                        <li>Durabilité maximale</li>
                     </ul>
-                    <a href="#" class="btn-outline">En savoir plus</a>
+                    <div class="partner-logo">
+                        <img src="img/partners/element.png" alt="Element">
+                    </div>
                 </div>
             </div>
 
-            <div class="expertise-section">
-                <div class="expertise-content">
-                    <h2>Notre Expertise</h2>
-                    <p>Forte de son expérience, MPC Group vous accompagne dans la réalisation de vos projets avec une expertise pointue et des solutions sur mesure.</p>
+            <!-- Sustainability Section -->
+            <div class="sustainability-section">
+                <div class="sustainability-content">
+                    <h2>Notre Engagement pour la Durabilité</h2>
+                    <p>Nous intégrons une dimension écoresponsable dans toutes nos solutions industrielles. En optimisant l'utilisation des ressources et en réduisant l'impact environnemental, nous contribuons à la transition vers une industrie plus verte.</p>
                     
-                    <div class="expertise-grid">
-                        <div class="expertise-item">
-                            <div class="expertise-icon">
-                                <i class="fas fa-chart-line"></i>
-                            </div>
-                            <div class="expertise-info">
-                                <h3>Analyse et Conseil</h3>
-                                <p>Étude approfondie de vos besoins et recommandations personnalisées.</p>
-                            </div>
+                    <div class="sustainability-features">
+                        <div class="feature-item">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Efficacité énergétique</h3>
+                            <p>Optimisation de la consommation d'énergie</p>
                         </div>
-
-                        <div class="expertise-item">
-                            <div class="expertise-icon">
-                                <i class="fas fa-tools"></i>
-                            </div>
-                            <div class="expertise-info">
-                                <h3>Mise en Œuvre</h3>
-                                <p>Réalisation et suivi de projet avec une équipe dédiée.</p>
-                            </div>
+                        <div class="feature-item">
+                            <i class="fas fa-recycle"></i>
+                            <h3>Gestion des ressources</h3>
+                            <p>Utilisation responsable des matériaux</p>
                         </div>
-
-                        <div class="expertise-item">
-                            <div class="expertise-icon">
-                                <i class="fas fa-headset"></i>
-                            </div>
-                            <div class="expertise-info">
-                                <h3>Support Continu</h3>
-                                <p>Accompagnement et maintenance pour garantir la performance.</p>
-                            </div>
+                        <div class="feature-item">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Performance durable</h3>
+                            <p>Solutions à long terme</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section class="partners-section">
-        <div class="container">
-            <h2>Nos Partenaires</h2>
-            <p>Nous collaborons avec les meilleurs acteurs du secteur pour vous offrir des solutions optimales.</p>
-            
-            <div class="partners-grid">
-                <div class="partner-card">
-                    <img src="img/partners/partner1.png" alt="Partner 1">
-                </div>
-                <div class="partner-card">
-                    <img src="img/partners/partner2.png" alt="Partner 2">
-                </div>
-                <div class="partner-card">
-                    <img src="img/partners/partner3.png" alt="Partner 3">
-                </div>
-                <div class="partner-card">
-                    <img src="img/partners/partner4.png" alt="Partner 4">
-                </div>
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <h2>Prêt à optimiser vos installations?</h2>
+                <p>Nos experts sont à votre disposition pour étudier vos besoins et vous proposer des solutions sur mesure.</p>
+                <a href="contact.php" class="btn btn-primary">Contactez-nous pour une étude personnalisée</a>
             </div>
         </div>
     </section>
@@ -328,6 +309,90 @@ include 'includes/header.php';
 
     .expertise-section {
         margin: 4rem 0 0;
+    }
+}
+
+/* Additional styles for sustainability section */
+.sustainability-section {
+    background: var(--background-light);
+    padding: 4rem 0;
+    margin: 4rem 0;
+}
+
+.sustainability-content {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.sustainability-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.feature-item {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+}
+
+.feature-item i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.partner-logo {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+}
+
+.partner-logo img {
+    max-height: 40px;
+    width: auto;
+}
+
+/* CTA Section styles */
+.cta-section {
+    text-align: center;
+    padding: 4rem 0;
+    background: var(--primary-color);
+    color: var(--white);
+    border-radius: 8px;
+    margin: 4rem 0;
+}
+
+.cta-section h2 {
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.btn-primary {
+    background: var(--white);
+    color: var(--primary-color);
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+@media (max-width: 768px) {
+    .sustainability-features {
+        grid-template-columns: 1fr;
     }
 }
 </style>

@@ -17,6 +17,7 @@
                 <ul class="nav-menu">
                     <li><a href="index.php" class="<?php echo ($current_page == 'home') ? 'active' : ''; ?>">Accueil</a></li>
                     <li><a href="about.php" class="<?php echo ($current_page == 'about') ? 'active' : ''; ?>">À Propos</a></li>
+                    <li><a href="services.php" class="<?php echo ($current_page == 'services') ? 'active' : ''; ?>">Services</a></li>
                     <li><a href="products.php" class="<?php echo ($current_page == 'products') ? 'active' : ''; ?>">Produits</a></li>
                     <li><a href="solutions.php" class="<?php echo ($current_page == 'solutions') ? 'active' : ''; ?>">Solutions</a></li>
                     <li><a href="sectors.php" class="<?php echo ($current_page == 'sectors') ? 'active' : ''; ?>">Secteurs</a></li>
